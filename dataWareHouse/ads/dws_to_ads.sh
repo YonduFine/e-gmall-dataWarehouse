@@ -42,7 +42,7 @@ select
     '$do_date',
     recent_days,
     source,
-    nvl(target, null),
+    nvl(target, 'null'),
     count(*) path_count
 from
 (

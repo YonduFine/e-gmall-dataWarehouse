@@ -4296,7 +4296,7 @@ select
     '2020-06-14',
     recent_days,
     source,
-    nvl(target, null),
+    nvl(target, 'null'),
     count(*) path_count
 from
 (
